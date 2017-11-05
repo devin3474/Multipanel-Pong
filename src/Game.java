@@ -15,7 +15,6 @@ public class Game {
 		GamePanel master = new GamePanel(Color.black);
 		master.setSize(theGame.getWidth(), theGame.getHeight());
 		
-		
 		Container pane = theGame.getContentPane();
 		pane.add(master);
 		pane.setVisible(true);
